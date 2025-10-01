@@ -104,18 +104,3 @@ Notes:
 - These are educational examples: clarity and demonstrating the pattern are prioritized over production concerns.
 - Feel free to refactor, add tests, or wire up a build system (Maven/Gradle) if you want to integrate them into larger projects.
 
-## Improvements & Roadmap
-
-- Add a top-level Gradle or Maven build to compile and run examples consistently from the repository root. This will make it easier to build multiple examples with a single command and to integrate CI.
-- Add unit tests (JUnit) for key components (for example: password strength strategies, factory-produced documents, schedule manager behavior) and a test task in the build file.
-- Add short per-example `README.md` files that describe the intent of each example, class responsibilities, and sample output or expected behavior.
-- Where appropriate, add small automated examples or scripts that print sample outputs so readers can quickly confirm behavior.
-- Optional: add a lightweight CI workflow (GitHub Actions) to compile all examples and run tests on each push.
-
----
-
-If you'd like further changes I can:
-- Add a top-level Gradle build that compiles all examples and runs tests.
-- Create per-example README files with diagrams and sample output.
-
-Tell me which you'd like and I'll implement it next.
