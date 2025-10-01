@@ -80,8 +80,5 @@ src/
 - The application validates input and notifies users of schedule changes via the console.
 - All exceptions are handled gracefully, providing clear feedback to the user.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 This project is licensed under the MIT License.
