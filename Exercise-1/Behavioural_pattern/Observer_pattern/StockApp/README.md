@@ -1,14 +1,14 @@
-# 📈 Stock Market Observer Pattern Demo
+# Stock Market Observer Pattern Demo
 
 This Java application demonstrates the **Observer Design Pattern** using a simple stock market simulation. Investors can subscribe to stocks and receive notifications whenever stock prices change.
 
-## 📝 Overview
+## Overview
 
 - **Stocks**: Represented by the `Stock` class. Each stock maintains a list of observers (investors).
 - **Investors**: Implement the `StockObserver` interface. They receive updates when subscribed stock prices change.
 - **Main Application**: Provides a menu-driven console interface to add stocks, add investors, subscribe/unsubscribe investors, update stock prices, and list all stocks.
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -18,7 +18,7 @@ src/
   StockObserver.java  # Observer interface
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ javac src/*.java
 java -cp src Main
 ```
 
-## 🖥️ Usage
+## Usage
 
 When you run the application, you'll see a menu:
 
@@ -58,7 +58,7 @@ When you run the application, you'll see a menu:
 - **List Stocks**: View all stocks and their current prices.
 - **Exit**: Quit the application.
 
-## 🏗️ Design Pattern
+## Design Pattern
 
 This application uses the **Observer Pattern**:
 
@@ -66,7 +66,7 @@ This application uses the **Observer Pattern**:
 - `StockObserver` is the **Observer** interface.
 - `Investor` implements `StockObserver` and receives updates.
 
-## 📄 Example
+## Example
 
 ```
 Enter stock name: ABC
@@ -85,7 +85,7 @@ New price: 120
 [Alice] Stock ABC updated to $120.0
 ```
 
-## 📚 Files
+## Files
 
 - [src/Main.java](src/Main.java)
 - [src/Stock.java](src/Stock.java)
