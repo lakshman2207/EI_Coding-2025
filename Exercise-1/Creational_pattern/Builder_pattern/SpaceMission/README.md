@@ -1,12 +1,12 @@
-# 🚀 Space Mission Builder - Builder Pattern Demonstration
+# Space Mission Builder - Builder Pattern Demonstration
 
 This application demonstrates the **Builder Design Pattern** through an interactive **Space Mission Configuration System**. Design and configure space missions ranging from Mars colonization to satellite deployments using an intuitive, space-themed interface.
 
-## 🌌 Project Overview
+## Project Overview
 
 The Space Mission Builder allows users to create complex space missions by combining various components like rockets, payloads, crew configurations, and destinations. The Builder pattern elegantly handles the complexity of mission planning while providing a fluent, easy-to-use interface.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Main.java                  # Main application entry point
@@ -15,7 +15,7 @@ The Space Mission Builder allows users to create complex space missions by combi
 └── README.md                  # This documentation file
 ```
 
-## 🎯 Builder Pattern Implementation
+## Builder Pattern Implementation
 
 ### 1. Product Class (`SpaceMission.java`)
 The complex space mission object with multiple components:
@@ -68,19 +68,19 @@ Interactive application entry point with:
 - Educational resources and pattern demonstrations
 - Mission control center with 6 main options
 
-## 🚀 Features
+## Features
 
-### 🌟 Interactive Mission Control Center
-1. **🚀 Build Predefined Mission** - Choose from 5 exciting mission types
-2. **🛠️ Build Custom Mission** - Create your own space mission specification
-3. **🎯 Demonstrate Builder Pattern** - See the pattern in action
-4. **📚 Explore Space Resources** - Learn about rockets and destinations
-5. **🎓 Learn About Builder Pattern** - Educational content about the pattern
-6. **🚪 Exit Mission Control** - Close the application
+### Interactive Mission Control Center
+1. ** Build Predefined Mission** - Choose from 5 exciting mission types
+2. ** Build Custom Mission** - Create your own space mission specification
+3. ** Demonstrate Builder Pattern** - See the pattern in action
+4. ** Explore Space Resources** - Learn about rockets and destinations
+5. ** Learn About Builder Pattern** - Educational content about the pattern
+6. ** Exit Mission Control** - Close the application
 
-### 🛸 Predefined Mission Types
+### Predefined Mission Types
 
-#### 🔴 Mars Colonization Mission
+#### Mars Colonization Mission
 - **Destination**: Mars Surface
 - **Crew**: 12 astronauts
 - **Duration**: 500 days
@@ -89,7 +89,7 @@ Interactive application entry point with:
 - **Budget**: ~$8,500 million
 - **Risk**: HIGH
 
-#### 🌙 Lunar Research Mission
+#### Lunar Research Mission
 - **Destination**: Moon South Pole
 - **Crew**: 4 astronauts
 - **Duration**: 30 days
@@ -98,7 +98,7 @@ Interactive application entry point with:
 - **Budget**: ~$4,200 million
 - **Risk**: MEDIUM
 
-#### 🛰️ ISS Resupply Mission
+#### ISS Resupply Mission
 - **Destination**: International Space Station
 - **Crew**: 0 (unmanned)
 - **Duration**: 30 days
@@ -107,7 +107,7 @@ Interactive application entry point with:
 - **Budget**: ~$200 million
 - **Risk**: LOW
 
-#### 🌌 Deep Space Exploration
+#### Deep Space Exploration
 - **Destination**: Jupiter's Moon Europa
 - **Crew**: 0 (robotic mission)
 - **Duration**: 5 years
@@ -116,7 +116,7 @@ Interactive application entry point with:
 - **Budget**: ~$4,800 million
 - **Risk**: HIGH
 
-#### 📡 Satellite Deployment
+#### Satellite Deployment
 - **Destination**: Low Earth Orbit
 - **Crew**: 0 (unmanned)
 - **Duration**: 1 day
@@ -125,13 +125,13 @@ Interactive application entry point with:
 - **Budget**: ~$180 million
 - **Risk**: LOW
 
-### 🛠️ Custom Mission Builder
+### Custom Mission Builder
 Users can specify:
 - **Required Components**: Mission Name, Rocket Type, Destination, Objective
 - **Optional Components**: Crew Size, Duration, Payload Type, Launch Site, Return Trip
 - **Automatic Calculations**: Budget estimation and risk assessment
 
-## 💻 How to Run
+## How to Run
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
@@ -149,12 +149,12 @@ java Main
 
 #### Using Predefined Mission:
 1. Run the application
-2. Select "1. 🚀 Build Predefined Mission"
+2. Select "1. Build Predefined Mission"
 3. Choose mission type (1-5)
 4. View detailed mission configuration
 
 #### Creating Custom Mission:
-1. Select "2. 🛠️ Build Custom Mission"
+1. Select "2. Build Custom Mission"
 2. Enter mission specifications:
    ```
    Mission Name: Europa Explorer
@@ -168,7 +168,7 @@ java Main
    Return Trip: No
    ```
 
-## 🎨 Builder Pattern Benefits Demonstrated
+## Builder Pattern Benefits Demonstrated
 
 ### 1. **Fluent Interface**
 ```java
@@ -203,21 +203,21 @@ SpaceMission mission = new SpaceMission.SpaceMissionBuilder()
 - Optional components get intelligent defaults
 - Mission feasibility is automatically assessed
 
-## 🌍 Space Mission Components
+## Space Mission Components
 
-### 🚀 Rocket Types
+### Rocket Types
 - **Falcon 9**: $67M - Best for ISS missions, satellite deployment
 - **Falcon Heavy**: $150M - Deep space missions, large satellites
 - **Starship**: $200M - Mars missions, lunar bases
 - **SLS Block 1**: $2,000M - Artemis lunar missions
 
-### 🌍 Destinations
+### Destinations
 - **Low Earth Orbit**: 160-2,000 km altitude
 - **Moon**: 384,400 km distance
 - **Mars**: 54.6 million km (closest approach)
 - **Jupiter System**: 588 million km
 
-### 📦 Payload Types
+### Payload Types
 - **Rover**: Surface exploration vehicles
 - **Satellite**: Communication and observation satellites
 - **Lander**: Surface landing modules
@@ -225,7 +225,7 @@ SpaceMission mission = new SpaceMission.SpaceMissionBuilder()
 - **Habitat**: Living quarters for crew
 - **Cargo**: Supplies and equipment
 
-## 🔍 Code Examples
+## Code Examples
 
 ### Basic Mission Creation
 ```java
@@ -263,7 +263,7 @@ try {
 }
 ```
 
-## 🎓 Learning Objectives
+## Learning Objectives
 
 After exploring this application, you will understand:
 
@@ -274,7 +274,7 @@ After exploring this application, you will understand:
 5. **Director Pattern**: Using a director to provide predefined configurations
 6. **Real-world Application**: How the pattern solves complex planning problems
 
-## 🔧 Extensibility Features
+## Extensibility Features
 
 The application is designed for easy extension:
 
@@ -284,45 +284,40 @@ The application is designed for easy extension:
 - **Add Mission Types**: Create new methods in `MissionDirector`
 - **Enhance Validation**: Add new validation rules in `build()` method
 
-## 📊 Expected Output
+## Expected Output
 
 When you run the application, you'll see:
 
 ```
-🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
     WELCOME TO SPACE MISSION BUILDER
     Builder Pattern Demonstration
-🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 
-🌌 Design and configure space missions with ease!
-🛸 Choose from predefined missions or create your own
-⭐ Experience the power of the Builder design pattern
+Design and configure space missions with ease!
+Choose from predefined missions or create your own
+Experience the power of the Builder design pattern
 
-🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
               MISSION CONTROL CENTER
-🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
-1. 🚀 Build Predefined Mission
-2. 🛠️  Build Custom Mission
-3. 🎯 Demonstrate Builder Pattern
-4. 📚 Explore Space Resources
-5. 🎓 Learn About Builder Pattern
-6. 🚪 Exit Mission Control
-🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
+1.  Build Predefined Mission
+2.  Build Custom Mission
+3.  Demonstrate Builder Pattern
+4.  Explore Space Resources
+5.  Learn About Builder Pattern
+6.  Exit Mission Control
 Enter your command (1-6):
 ```
 
-## 🏆 Pattern Advantages
+## Pattern Advantages
 
-- ✅ **Readable Code**: Fluent interface makes mission creation intuitive
-- ✅ **Flexible Construction**: Components can be configured in any order
-- ✅ **Validation**: Ensures all required mission components are present
-- ✅ **Reusability**: Same builder can create different mission types
-- ✅ **Maintainability**: Easy to modify and extend mission configurations
-- ✅ **Intelligent Defaults**: Smart defaults based on mission requirements
-- ✅ **Automatic Calculations**: Budget and risk assessment built-in
-- ✅ **No Telescoping Constructors**: Avoids constructor parameter explosion
+- **Readable Code**: Fluent interface makes mission creation intuitive
+-  **Flexible Construction**: Components can be configured in any order
+-  **Validation**: Ensures all required mission components are present
+-  **Reusability**: Same builder can create different mission types
+-  **Maintainability**: Easy to modify and extend mission configurations
+-  **Intelligent Defaults**: Smart defaults based on mission requirements
+-  **Automatic Calculations**: Budget and risk assessment built-in
+-  **No Telescoping Constructors**: Avoids constructor parameter explosion
 
-## 🌟 Unique Features
+## Unique Features
 
 This Space Mission Builder stands out because it:
 
