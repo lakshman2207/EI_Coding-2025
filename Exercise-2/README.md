@@ -55,7 +55,9 @@ src/
         ├── model/              # Data models (e.g., Task)
         ├── observer/           # Observer pattern implementation
         ├── util/               # Utility classes
-        └── Astronaut_class_diagram.png # Class diagram
+└── Astronaut_class_diagram
+└── Astronaut_case_diagram
+└── Astronaut_sequence_diagram
 ```
 
 ## Getting Started
@@ -79,9 +81,6 @@ src/
 - Follow the on-screen prompts to add, update, or remove tasks.
 - The application validates input and notifies users of schedule changes via the console.
 - All exceptions are handled gracefully, providing clear feedback to the user.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is licensed under the MIT License.
