@@ -104,30 +104,18 @@ Notes:
 - These are educational examples: clarity and demonstrating the pattern are prioritized over production concerns.
 - Feel free to refactor, add tests, or wire up a build system (Maven/Gradle) if you want to integrate them into larger projects.
 
-## Suggested improvements (ideas for follow-up)
+## Improvements & Roadmap
 
-- Add a top-level Gradle or Maven build to compile/run examples consistently.
-- Add unit tests (JUnit) for key components (e.g., password strength strategies, factory-produced documents, schedule manager behavior).
-- Add short README.md files inside each example folder to describe the class responsibilities and show sample output.
-
-## Contributing
-
-Contributions are welcome. If you'd like to contribute:
-
-1. Fork the repository and create a feature branch.
-2. Add or improve examples, tests, or documentation.
-3. Open a pull request with a short description of changes.
-
-When making changes, keep examples small and focused on illustrating the intended pattern.
-
-## License
-
-This collection is provided for educational use. No explicit license file is included — if you plan to reuse code in public projects, please add a LICENSE file to clarify terms.
+- Add a top-level Gradle or Maven build to compile and run examples consistently from the repository root. This will make it easier to build multiple examples with a single command and to integrate CI.
+- Add unit tests (JUnit) for key components (for example: password strength strategies, factory-produced documents, schedule manager behavior) and a test task in the build file.
+- Add short per-example `README.md` files that describe the intent of each example, class responsibilities, and sample output or expected behavior.
+- Where appropriate, add small automated examples or scripts that print sample outputs so readers can quickly confirm behavior.
+- Optional: add a lightweight CI workflow (GitHub Actions) to compile all examples and run tests on each push.
 
 ---
 
-If you want, I can also:
-- Add a top-level build file (Gradle) to build all examples from one command.
-- Add short README files inside each example folder describing the class diagram and run output.
+If you'd like further changes I can:
+- Add a top-level Gradle build that compiles all examples and runs tests.
+- Create per-example README files with diagrams and sample output.
 
-Tell me which you prefer and I will implement it next.
+Tell me which you'd like and I'll implement it next.
