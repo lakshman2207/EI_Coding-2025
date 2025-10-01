@@ -26,7 +26,7 @@ Factory_pattern/
     StandardDocumentFactory.java
     TextDocument.java
     WordDocument.java
-    [Main.java]            # Optional: interactive runner (may or may not exist)
+    Main.java
 ```
 
 ## Prerequisites
